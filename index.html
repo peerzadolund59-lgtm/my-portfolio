@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peerzado Lund | IT Student, Networking &amp; Web</title>
+<meta name="description" content="Portfolio of Peerzado Lund, BS Information Technology student at Sindh University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+<header class="top">
+  <a href="#home" class="brand" data-link="home">Peerzado Lund</a>
+  <nav id="nav" aria-label="Main">
+    <a href="#home" data-link="home">Home</a>
+    <a href="#about" data-link="about">About</a>
+    <a href="#skills" data-link="skills">Skills</a>
+    <a href="#education" data-link="education">Education</a>
+    <a href="#contact" data-link="contact">Contact</a>
+  </nav>
+  <button id="themeBtn" class="icon-btn" aria-label="Switch dark or light mode" title="Dark / Light">
+    <span class="sun">&#9728;</span><span class="moon">&#9790;</span>
+  </button>
+  <button id="menuBtn" class="icon-btn menu" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+</header>
+
+<main>
+
+<!-- HOME -->
+<section class="page" id="home">
+  <div class="hero">
+    <div class="hero-text">
+      <p class="hello">Hello, I am</p>
+      <h1>Peerzado Lund</h1>
+      <p class="role">BS Information Technology student at Sindh University Jamshoro, working with networking and the front-end of web.</p>
+      <div class="actions">
+        <a class="btn solid" href="#skills" data-link="skills">See my skills</a>
+        <a class="btn line" href="#contact" data-link="contact">Contact me</a>
+      </div>
+    </div>
+    <div class="photo-wrap">
+      <svg class="net" viewBox="0 0 320 320" aria-hidden="true">
+        <g class="lines">
+          <line x1="40" y1="60" x2="160" y2="20"/><line x1="160" y1="20" x2="290" y2="80"/>
+          <line x1="290" y1="80" x2="300" y2="230"/><line x1="300" y1="230" x2="170" y2="300"/>
+          <line x1="170" y1="300" x2="30" y2="250"/><line x1="30" y1="250" x2="40" y2="60"/>
+        </g>
+        <g class="dots">
+          <circle cx="40" cy="60" r="7"/><circle cx="160" cy="20" r="7"/><circle cx="290" cy="80" r="7"/>
+          <circle cx="300" cy="230" r="7"/><circle cx="170" cy="300" r="7"/><circle cx="30" cy="250" r="7"/>
+        </g>
+      </svg>
+      <div class="photo">
+        <img src="mypic.jpeg" alt="Peerzado Lund" onerror="this.remove()">
+        <span class="initials">PL</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="page" id="about">
+  <h2>About me</h2>
+  <div class="split">
+    <div class="about-text">
+      <p>My name is Peerzado Lund. I am from district Ghotki, Sindh, and I am studying BS Information Technology at Sindh University.</p>
+      <p>I like computer networks and I practise on the command line: configuring devices, checking connections and finding out why something is not working. I also build web pages with HTML, CSS and JavaScript.</p>
+      <h3>Languages I speak</h3>
+      <div class="chips">
+        <span>Sindhi</span><span>Balochi</span><span>Urdu</span><span>English</span>
+      </div>
+    </div>
+    <dl class="facts">
+      <div><dt>Name</dt><dd>Peerzado</dd></div>
+      <div><dt>Father's name</dt><dd>Ghareebo</dd></div>
+      <div><dt>Caste</dt><dd>Lund</dd></div>
+      <div><dt>Date of birth</dt><dd>05 May 2005</dd></div>
+      <div><dt>District</dt><dd>Ghotki, Sindh</dd></div>
+      <div><dt>Email</dt><dd>peerzadolund59@gmail.com</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="page" id="skills">
+  <h2>Skills</h2>
+  <div class="cards">
+    <article class="card">
+      <div class="ico">&#9741;</div>
+      <h3>Networking (CCNA)</h3>
+      <ul>
+        <li>CCNA configuration</li>
+        <li>CLI commands</li>
+        <li>Troubleshooting</li>
+      </ul>
+    </article>
+    <article class="card">
+      <div class="ico">&lt;/&gt;</div>
+      <h3>Frontend web development</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </article>
+    <article class="card">
+      <div class="ico">&#9638;</div>
+      <h3>Operating systems</h3>
+      <ul>
+        <li>Installing and using operating systems</li>
+        <li>Command line basics</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="page" id="education">
+  <h2>Education</h2>
+  <div class="edu">
+    <div class="edu-card">
+      <span class="badge">Studying now</span>
+      <h3>BS Information Technology</h3>
+      <p class="uni">Sindh University Jamshoro</p>
+      <div class="edu-row"><span>Current year</span><strong>3rd year</strong></div>
+      <div class="edu-row"><span>Degree completes</span><strong>2028</strong></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="page" id="contact">
+  <h2>Contact</h2>
+  <div class="cards two">
+    <a class="card link" href="mailto:peerzadolund59@gmail.com">
+      <div class="ico">@</div>
+      <h3>Email</h3>
+      <p>peerzadolund59@gmail.com</p>
+    </a>
+    <a class="card link" href="tel:+923223567987">
+      <div class="ico">&#9990;</div>
+      <h3>Phone</h3>
+      <p>0326-3008548</p>
+    </a>
+    <div class="card">
+      <div class="ico">&#9873;</div>
+      <h3>Location</h3>
+      <p>Ghotki, Sindh, Pakistan</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>&copy; <span id="year"></span> Peerzado Lund</footer>
+<script src="script.js"></script>
+</body>
+</html>
